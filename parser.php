@@ -49,4 +49,4 @@ foreach ($rows as $row) {
 
 $statistics['urls'] = count($uniqueUrls);
 
-var_dump($statistics);
+(new App\Services\Split)->debug($statistics);

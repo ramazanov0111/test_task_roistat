@@ -117,4 +117,9 @@ class Split
         return $result === false ? null : $result;
     }
 
+    public function debug($array)
+    {
+        echo "\n" . print_r($array, true) . "\n";
+    }
+
 }
